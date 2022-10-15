@@ -1,0 +1,340 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    
+    box-sizing: border-box;
+    font-family: "Google Sans", Roboto, RobotoDraft, Helvetica, Arial, sans-serif
+}
+body{
+    background-color:#f2f2f2;
+    height: 100vh;
+    overflow-y: hidden;
+}
+.headerleft img{
+    object-fit: contain;
+    height: 60px;
+}
+.header
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.headerleft{
+    display: flex;
+    align-items: center;
+}
+.headerleft span{
+    padding: 20px;
+    cursor: pointer;
+
+}
+.headermiddle{
+
+    background-color:#e1e6ee;
+    padding: 5px;
+    border-radius: 8px;
+    margin-top:12px ;
+    height:50px;
+    width: 680px;
+    margin-right: 180px;
+    
+}
+.headermiddle span{
+    color: #202124;
+    margin-top: 8px;
+}
+
+.material-icons{
+    color: rgb(131, 131, 131);
+    background-color: transparent;
+}
+.headermiddle input{
+    border:none ;
+    width: 600px;
+    outline: none;
+    padding: 1px;
+    margin: 1px;
+    font-size:larger;
+    background-color: transparent;
+    
+
+    
+}
+
+
+
+.headerright{
+    display: flex;
+    padding-right:50px ;
+    gap: 5px;
+}
+.headerright img{
+    
+    border-radius: 50%;
+    height: 35px;
+
+}
+.headerright span{
+    padding: 10px;
+    cursor: pointer;
+}
+.sidebar{
+    
+    flex: 0.3;
+    max-width: 300px;
+    padding-right: 20px;
+    
+}
+.compose{
+    width: 155px;
+    height: 60px;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+    border-radius: 20px;
+    padding: 20px;
+    color: rgb(0, 0, 0);
+    background-color:#c2e7ff;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    border: none;
+    font-weight:lighter;
+    font-size: 15px;
+    gap: 15px;
+        
+}
+.compose:hover{
+    cursor: pointer;
+    box-shadow:0px 2px 5px -2px rgba(0,0,0,0.75) ;
+}
+.compose span{
+    color: black;
+}
+.sidebaroption{
+    display: flex;
+    align-items: center;
+    height: 40px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    cursor: pointer;
+    padding: 0 10px;
+    color: #929292;
+    padding-left: 32px;
+    font-size: x-small;
+
+
+}
+.sidebaroptionactive.material-icons{
+    color: #202124;
+}
+.sidebaroption span{
+    padding: 5px;
+ 
+
+}
+.sidebaroption h3{
+    flex: 1;
+    margin-left: 10px;
+    font-weight: 50;
+}
+.sidebaroptionactive{
+    display: flex;
+    align-items: center;
+    height: 40px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    cursor: pointer;
+    padding: 0 10px;
+    color: #929292;
+    padding-left: 32px;
+    font-size: x-small;
+
+}
+
+.sidebaroptionactive,
+.sidebaroptionactive h3,
+.sidebaroptionactive.material-icons{
+    background-color:#d3e3fd;
+    color: #202124;
+    font-weight: 700;
+}
+.sidebaroptionactive span{
+    color: #202124;
+}
+
+
+.sidebaroption:hover,
+.sidebaroption:hover h3,
+.sidebaroption:hover.material-icons{
+    background-color:#e5e5e5;
+    
+
+}
+
+.mainbody{
+    display: flex;
+    height:100vh ;
+}
+.email{
+    flex: 1;
+    overflow: scroll;
+}
+.emailsettings{
+    position: sticky;
+    margin-top:10px ;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(255, 255, 255) ;
+    background-color:#ffffff;
+    border-top-left-radius:20px ;
+    border-top-right-radius: 20px;
+    padding: 8px;
+    width: 1150px;
+}
+.emailsettingsleft{
+    display: flex;
+    align-items: center;
+}
+.emailsettings .material-icons{
+    margin: 2px;
+    cursor: pointer;
+}
+.emailsection{
+    position: sticky;
+    display: flex;
+    background-color: #ffffff;
+    width: 1150px;
+
+
+}
+.section
+{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+    color: #929292;
+    border-width: 0px;
+    padding-left: 50px;
+    width: 235px;
+    gap: 5px;
+
+    
+}
+.sectionselected{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+    background-color: #ffffff00;
+    color: rgb(0, 157, 255);
+    border-bottom: 3px solid  rgb(0, 157, 255);
+    width: 235px;
+    
+}
+.section h3
+{
+    font-size: 15px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 500;
+    margin-left: 10px;
+}
+.sectionselected h3{
+    font-size: 15px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 500;
+    margin-right:150px ;
+
+}
+
+.sectionselected .material-icons{
+    border-bottom: none;
+    font-size:20px;
+}
+.section:hover,
+.sectionselected:hover{
+    background-color: #e7e7e7;
+    border-width: 3px;
+}
+.tag1{
+    width: 45px;
+    height: 16px;
+    background-color: darkgreen;
+    color: #ffffff;
+    border-radius: 20px;
+    font-size: x-small;
+    margin-bottom:15px ;
+    
+
+}
+.tag2{
+    width: 45px;
+    height: 16px;
+    background-color: rgb(31, 84, 230);
+    color: #ffffff;
+    border-radius: 20px;
+    font-size: x-small;
+    margin-bottom:15px ;
+
+
+}
+h4
+{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight:bold;
+    margin-left: 5px;
+    margin-top: 1px;
+}
+.emailrow{
+    display: flex;
+    padding: 4px;
+    align-items: center;
+    height: 50px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #e7e7e7;
+    width: 1150px;
+}
+.emailrow:hover{
+    position: relative;
+    z-index: 10;
+    border-top: 1px solid #e7e7e7;
+    box-shadow: 0px 4px 4px -2px rgba(0, 0, 0, 0.26);
+}
+.emailrowoption{
+    display: flex;
+    align-items: center;
+
+}
+.emailrowoption .material-icons,input{
+    margin: 5px;
+    padding: 5px;
+}
+.emailmessage{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    font-size: 15px;
+}
+.emailmessage h4{
+    width: 400px;
+    overflow: hidden;
+    
+}
+.emailtitle{
+    font-size: 18px;
+    flex: 0.2;
+}
+.emailtime{
+    padding-right: 15px;
+    font-size: 12px;
+    font-weight: 700;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.emailmessage span{
+    color: #929292;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}

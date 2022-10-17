@@ -29,6 +29,10 @@ body{
     cursor: pointer;
 
 }
+.headerleft span:hover{
+    color: #202124;
+
+}
 .headermiddle{
 
     background-color:#e1e6ee;
@@ -69,6 +73,9 @@ body{
     padding-right:50px ;
     gap: 5px;
 }
+.headerright .material-icons:hover{
+    color: #202124;
+}
 .headerright img{
     
     border-radius: 50%;
@@ -107,6 +114,7 @@ body{
         
 }
 .compose:hover{
+    transform: scale(1.01);
     cursor: pointer;
     box-shadow:0px 2px 5px -2px rgba(0,0,0,0.75) ;
 }
@@ -201,6 +209,9 @@ body{
 .emailsettings .material-icons{
     margin: 2px;
     cursor: pointer;
+}
+.emailsettings .material-icons:hover{
+    color: #202124;
 }
 .emailsection{
     position: sticky;
